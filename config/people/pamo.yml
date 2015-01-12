@@ -2,8 +2,6 @@ groups:
     - bash
     - developer
 recipes:
-    global:
-        - dotfiles::ssh_config
     mac_os_x:
         - osxdefaults::menu_show_clock_with_date
         - osxdefaults::mail_when_searching_do_not_include_trash
@@ -36,6 +34,11 @@ attributes:
             - pamo
         vim:
             bundle:
+                - sensible: git://github.com/tpope/vim-sensible.git
+		- sleuth: git://github.com/tpope/vim-sleuth.git
+		- airline: https://github.com/bling/vim-airline
+		- vim-css-color: https://github.com/ap/vim-css-color
+                - syntastic: git://github.com/scrooloose/syntastic.git
 	    	- gitgutter: git://github.com/airblade/vim-gitgutter.git
 	    	- nerdtree: git://github.com/scrooloose/nerdtree.git
 		- surround: git://github.com/tpope/vim-surround.git

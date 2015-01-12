@@ -8,31 +8,14 @@ recipes:                                       # Configs are parsed and every li
 	- osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
 	- osxdefaults::dock_set_magnification_on
 	- osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
-	- osxdefaults::enable_safari_debug_menu
-	- osxdefaults::finder_display_full_path
-	- osxdefaults::finder_set_preferred_view_style
-	- osxdefaults::finder_show_all_files
-	- osxdefaults::finder_show_file_extensions
-	- osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
-        - osxdefaults::finder_search_the_current_folder_by_default
-        - osxdefaults::finder_small_sidebar_icon_size
 	- osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
-        - osxdefaults::disable_disk_image_verification
         - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
-	- osxdefaults::set_a_blazingly_fast_keyboard_repeat_rate
         - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
-        - osxdefaults::disable_resume_system-wide
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::save_screenshots_to_the_desktop
-        - osxdefaults::tap_to_click
-        - osxdefaults::set_computer_name
-        - osxdefaults::menu_add_battery_percentage
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
-	- osxdefaults::enable_assistive_devices
 attributes:
-    osxdefaults:
-	computername: pamo
     homebrewalt:
         apps:
 	    - ack
@@ -61,29 +44,20 @@ attributes:
 	    - ruby-build
    	    - readline
 	    - git
+            - git-extras
 	    - gti
         cask_apps:
             - google-chrome
-            - mailplane
-            - screenhero
-	    - alfred
-	    - dropbox
-	    - virtualbox
-	    - sublime-text
-	    - iterm2
             - firefox
-            - java
-	    - 1password
+            - mailplane
+	    - alfred
+	    - sublime-text
 	    - intellij-idea
-	    - plug
-	    - hipchat
-	    - evernote
+	    - iterm2
+            - java
 	    - flux
-	    - spotify
-	    - slack
-	    - fantastical
-	    - bartender
-        cask_fonts:   
+	    - dropbox
+	 cask_fonts:   
             - inconsolata
     nodejs:
         apps:

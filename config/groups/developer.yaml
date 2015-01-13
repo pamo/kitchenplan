@@ -40,9 +40,35 @@ attributes:
         apps:
             - git
             - git-extras
+            - gti
             - wget
             - htop-osx
             - rsync
+            - ack
+            - autoconf
+            - autojump
+            - boot2docker
+            - dos2unix
+            - go
+            - gradle
+            - markdown
+            - mongodb
+            - mysql 
+            - rbenv
+            - rbenv-gemset
+            - vim 
+            - tree
+            - unrar
+            - gcc
+            - heroku-toolbelt
+            - phantomjs
+            - pkg-config
+            - postgresql
+            - python
+            - qt
+            - ssh-copy-id
+            - ruby-build
+            - readline
     nodejs:
         apps:
             - bower

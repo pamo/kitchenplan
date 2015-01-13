@@ -13,22 +13,22 @@ attributes:
         computername: PurpleNurple
     homebrewalt:
         cask_apps:
-        - 1password
-        - dash
-        - caffeine
-        - screenhero
-        - kaleidoscope
-        - vlc
-        - vagrant-manger
-        - vagrant
-        - virtualbox
-        - plug
-        - hipchat
-        - evernote
-        - spotify
-        - slack
-        - fantastical
-        - bartender
+            - 1password
+            - dash
+            - caffeine
+            - screenhero
+            - kaleidoscope
+            - vlc
+            - vagrant-manger
+            - vagrant
+            - virtualbox
+            - plug
+            - hipchat
+            - evernote
+            - spotify
+            - slack
+            - fantastical
+            - bartender
     dotfiles:
         vimusers:
             - root
@@ -61,6 +61,6 @@ attributes:
                 - lightline: git://github.com/itchyny/lightline.vim.git
                 - javascript: git://github.com/pangloss/vim-javascript.git
                 - jsx: git://github.com/mxw/vim-jsx.git
-        git:
-            name: Pamela Ocampo
-            email: pamela.ocampo@gmail.com
+    git:
+        name: Pamela Ocampo
+        email: pamela.ocampo@gmail.com

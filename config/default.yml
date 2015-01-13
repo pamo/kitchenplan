@@ -17,48 +17,16 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
 attributes:
     homebrewalt:
-        apps:
-        - ack
-        - autoconf
-        - autojump
-        - boot2docker
-        - dos2unix
-        - go
-        - gradle
-        - markdown
-        - mongodb
-        - mysql 
-        - rbenv
-        - rbenv-gemset
-        - vim 
-        - tree
-        - unrar
-        - gcc
-        - heroku-toolbelt
-        - phantomjs
-        - pkg-config
-        - postgresql
-        - python
-        - qt
-        - ssh-copy-id
-        - ruby-build
-        - readline
-        - git
-        - git-extras
-        - gti
-    cask_apps:
-        - google-chrome
-        - firefox
-        - mailplane
-        - alfred
-        - sublime-text
-        - intellij-idea
-        - iterm2
-        - java
-        - flux
-        - dropbox
-     cask_fonts:   
-        - inconsolata
+        cask_apps:
+            - google-chrome
+            - firefox
+            - mailplane
+            - alfred
+            - sublime-text
+            - intellij-idea
+            - iterm2
+            - flux
+            - dropbox
     nodejs:
         apps:
             - bower

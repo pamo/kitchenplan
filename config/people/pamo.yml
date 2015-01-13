@@ -140,16 +140,16 @@ attributes:
 	 theme: envy
 	 enabled_plugins:
 	     completion:
-		 - defaults
-		 - bash-it
-		 - git
-		 - brew
-		 - gem
-		 - rake
-		 - ssh
+    		 - defaults
+    		 - bash-it
+    		 - git
+    		 - brew
+    		 - gem
+    		 - rake
+    		 - ssh
 	     plugins:
-		 - git
-		 - ssh
-		 - ruby
-		 - rbenv
-		 - vagrant
+    		 - git
+    		 - ssh
+    		 - ruby
+    		 - rbenv
+    		 - vagrant

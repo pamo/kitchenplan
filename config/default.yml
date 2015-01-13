@@ -1,3 +1,5 @@
+groups:
+    - developer
 recipes:                                       # Configs are parsed and every list is appended to each other, chef handles order and de-duplication
     global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
         - applications::create_var_chef_cache
@@ -16,9 +18,9 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::save_screenshots_to_the_desktop
-	- osxdefaults::finder_allow_text_selection_in_quick_look
-	- osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
-	- osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
+        - osxdefaults::finder_allow_text_selection_in_quick_look
+        - osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
+        - osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
         - osxdefaults::finder_display_full_path
         - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
         - osxdefaults::finder_new_finder_windows_shows_homefolder
@@ -32,9 +34,9 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::finder_set_preferred_view_style
         - osxdefaults::finder_search_the_current_folder_by_default
         - osxdefaults::finder_small_sidebar_icon_size
-	- osxdefaults::finder_show_status_bar
-	- osxdefaults::finder_show_path_bar
-	- osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+        - osxdefaults::finder_show_status_bar
+        - osxdefaults::finder_show_path_bar
+        - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
 attributes:
     homebrewalt:
         cask_apps:

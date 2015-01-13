@@ -134,10 +134,10 @@ attributes:
     nodejs:
         apps:
             - bower
-            - grunt
-            - grunt-cli
+	    - grunt
+	    - grunt-cli
     bash_it:
-	 theme: tylenol
+	 theme: envy
 	 enabled_plugins:
 	     completion:
 		 - defaults

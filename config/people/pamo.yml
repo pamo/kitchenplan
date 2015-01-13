@@ -1,7 +1,8 @@
-groups:
-    - bash
 recipes:
     global:
+        - dotfiles::bash_it
+        - dotfiles::inputrc
+        - applications::bash
         - dotfiles::gitconfig
         - applications::ssh_config
         - dotfiles::vim
@@ -36,6 +37,7 @@ attributes:
             - git
             - git-extras
             - gti
+            - bash-completion
             - wget
             - htop-osx
             - rsync

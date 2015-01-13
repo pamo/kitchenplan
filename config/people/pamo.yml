@@ -14,8 +14,9 @@ attributes:
     homebrewalt:
         cask_apps:
 	    - 1password
+	    - dash
 	    - caffeine
-            - screenhero
+        - screenhero
 	    - kaleidoscope
 	    - vlc
 	    - vagrant-manger
@@ -35,31 +36,31 @@ attributes:
         vim:
             bundle:
                 - sensible: git://github.com/tpope/vim-sensible.git
-		- sleuth: git://github.com/tpope/vim-sleuth.git
-		- airline: https://github.com/bling/vim-airline
-		- vim-css-color: https://github.com/ap/vim-css-color
+		        - sleuth: git://github.com/tpope/vim-sleuth.git
+		        - airline: https://github.com/bling/vim-airline
+		        - vim-css-color: https://github.com/ap/vim-css-color
                 - syntastic: git://github.com/scrooloose/syntastic.git
-	    	- gitgutter: git://github.com/airblade/vim-gitgutter.git
-	    	- nerdtree: git://github.com/scrooloose/nerdtree.git
-		- surround: git://github.com/tpope/vim-surround.git
-		- ctrlp: git://github.com/kien/ctrlp.vim.git
-		- sessionman: git://github.com/vim-scripts/sessionman.vim.git
-		- matchit: git://github.com/vim-scripts/matchit.zip.git
-		- easymotion: git://github.com/Lokaltog/vim-easymotion.git
-		- nerdtreetabs: git://github.com/jistr/vim-nerdtree-tabs.git
-		- undotree: git://github.com/mbbill/undotree.git
-		- numbers: git://github.com/myusuf3/numbers.vim.git
-		- tmux: git://github.com/christoomey/vim-tmux-navigator.git
-		- sbt: git://github.com/derekwyatt/vim-sbt.git
-		- screen: git://github.com/ervandew/screen.git
-		- fireplace: git://github.com/tpope/vim-fireplace.git
-		- classpath: git://github.com/tpope/vim-classpath.git
-		- clojure: git://github.com/guns/vim-clojure-static.git
-		- expand: git://github.com/terryma/vim-expand-region.git
-		- rails: git://github.com/tpope/vim-rails.git
-		- lightline: git://github.com/itchyny/lightline.vim.git
-		- javascript: git://github.com/pangloss/vim-javascript.git
-		- jsx: git://github.com/mxw/vim-jsx.git
-	git:
-	    name: Pamela Ocampo
-	    email: pamela.ocampo@gmail.com
+	    	    - gitgutter: git://github.com/airblade/vim-gitgutter.git
+	    	    - nerdtree: git://github.com/scrooloose/nerdtree.git
+		        - surround: git://github.com/tpope/vim-surround.git
+		        - ctrlp: git://github.com/kien/ctrlp.vim.git
+		        - sessionman: git://github.com/vim-scripts/sessionman.vim.git
+		        - matchit: git://github.com/vim-scripts/matchit.zip.git
+		        - easymotion: git://github.com/Lokaltog/vim-easymotion.git
+		        - nerdtreetabs: git://github.com/jistr/vim-nerdtree-tabs.git
+		        - undotree: git://github.com/mbbill/undotree.git
+		        - numbers: git://github.com/myusuf3/numbers.vim.git
+		        - tmux: git://github.com/christoomey/vim-tmux-navigator.git
+		        - sbt: git://github.com/derekwyatt/vim-sbt.git
+		        - screen: git://github.com/ervandew/screen.git
+		        - fireplace: git://github.com/tpope/vim-fireplace.git
+		        - classpath: git://github.com/tpope/vim-classpath.git
+		        - clojure: git://github.com/guns/vim-clojure-static.git
+		        - expand: git://github.com/terryma/vim-expand-region.git
+		        - rails: git://github.com/tpope/vim-rails.git
+		        - lightline: git://github.com/itchyny/lightline.vim.git
+		        - javascript: git://github.com/pangloss/vim-javascript.git
+		        - jsx: git://github.com/mxw/vim-jsx.git
+		git:
+	        name: Pamela Ocampo
+	        email: pamela.ocampo@gmail.com

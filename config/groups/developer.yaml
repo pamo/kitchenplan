@@ -12,7 +12,7 @@ recipes:
         - osxdefaults::disable_disk_image_verification
         - osxdefaults::disable_gatekeeper
         - osxdefaults::disable_front_row
-	- osxdefaults::enable_safari_debug_menu
+	    - osxdefaults::enable_safari_debug_menu
         - osxdefaults::enable_assistive_devices
         - osxdefaults::enable_full_keyboard_access_for_all_controls
         - osxdefaults::increase_window_resize_speed_for_cocoa_applications
@@ -29,9 +29,9 @@ recipes:
         - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
         - osxdefaults::finder_search_the_current_folder_by_default
         - osxdefaults::finder_unhide_home
-	- osxdefaults::finder_show_all_files
-	- osxdefaults::finder_show_file_extensions
-	- osxdefaults::finder_set_preferred_view_style
+	    - osxdefaults::finder_show_all_files
+	    - osxdefaults::finder_show_file_extensions
+	    - osxdefaults::finder_set_preferred_view_style
         - osxdefaults::finder_search_the_current_folder_by_default
         - osxdefaults::finder_small_sidebar_icon_size
 attributes:

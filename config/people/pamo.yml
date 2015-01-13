@@ -23,7 +23,7 @@ recipes:
         - osxdefaults::tap_to_click
         - osxdefaults::do_not_show_dashboard_as_a_space
         - osxdefaults::prevent_time_machine_from_prompting_to_use_new_hard_drives_as_backup_volume
-	- osxdefaults::menu_show_clock_with_date
+        - osxdefaults::menu_show_clock_with_date
         - osxdefaults::mail_when_searching_do_not_include_trash
         - osxdefaults::mail_copy_email_addresses_instead_of_names_in_mail
         - osxdefaults::menu_add_battery_percentage

@@ -4,11 +4,11 @@ recipes:                                       # Configs are parsed and every li
     mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
         - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
         - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
-	    - dotfiles::inputrc
-	    - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
-	    - osxdefaults::dock_set_magnification_on
-	    - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
-	    - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
+        - dotfiles::inputrc
+        - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
+        - osxdefaults::dock_set_magnification_on
+        - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
+        - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
         - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
         - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
@@ -18,46 +18,46 @@ recipes:                                       # Configs are parsed and every li
 attributes:
     homebrewalt:
         apps:
-	    - ack
-	    - autoconf
-	    - autojump
-	    - boot2docker
-	    - dos2unix
-	    - go
-	    - gradle
-	    - markdown
-	    - mongodb
-	    - mysql 
-	    - rbenv
-	    - rbenv-gemset
-	    - vim 
-	    - tree
-	    - unrar
-	    - gcc
-	    - heroku-toolbelt
-	    - phantomjs
-	    - pkg-config
-	    - postgresql
-	    - python
-	    - qt
-	    - ssh-copy-id
-	    - ruby-build
-   	    - readline
-	    - git
+        - ack
+        - autoconf
+        - autojump
+        - boot2docker
+        - dos2unix
+        - go
+        - gradle
+        - markdown
+        - mongodb
+        - mysql 
+        - rbenv
+        - rbenv-gemset
+        - vim 
+        - tree
+        - unrar
+        - gcc
+        - heroku-toolbelt
+        - phantomjs
+        - pkg-config
+        - postgresql
+        - python
+        - qt
+        - ssh-copy-id
+        - ruby-build
+        - readline
+        - git
         - git-extras
-	    - gti
+        - gti
     cask_apps:
         - google-chrome
         - firefox
         - mailplane
-	    - alfred
-	    - sublime-text
-	    - intellij-idea
-	    - iterm2
+        - alfred
+        - sublime-text
+        - intellij-idea
+        - iterm2
         - java
-	    - flux
-	    - dropbox
-	 cask_fonts:   
+        - flux
+        - dropbox
+     cask_fonts:   
         - inconsolata
     nodejs:
         apps:

@@ -80,6 +80,7 @@ attributes:
             - slack
             - fantastical
             - bartender
+            - sizeup
     dotfiles:
         vimusers:
             - root

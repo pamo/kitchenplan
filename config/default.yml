@@ -8,13 +8,33 @@ recipes:                                       # Configs are parsed and every li
         - osxdefaults::dock_set_the_icon_size_of_dock_items_to_36_pixels
         - osxdefaults::dock_set_magnification_on
         - osxdefaults::dock_do_not_animate_opening_applications_from_the_dock
+        - osxdefaults::expand_print_panel_by_default
+        - osxdefaults::expand_save_panel_by_default
         - osxdefaults::enable_subpixel_font_rendering_on_non-apple_lcds
         - osxdefaults::automatically_illuminate_built-in_macbook_keyboard_in_low_light
         - osxdefaults::automatically_quit_printer_app_once_the_print_jobs_complete
         - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
         - osxdefaults::save_screenshots_in_png_format
         - osxdefaults::save_screenshots_to_the_desktop
-        - osxdefaults::avoid_creating_ds_store_files_on_network_volumes
+	- osxdefaults::finder_allow_text_selection_in_quick_look
+	- osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
+	- osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
+        - osxdefaults::finder_display_full_path
+        - osxdefaults::finder_use_column_view_in_all_finder_windows_by_default
+        - osxdefaults::finder_new_finder_windows_shows_homefolder
+        - osxdefaults::finder_automatically_open_a_new_finder_window_when_a_volume_is_mounted
+        - osxdefaults::finder_disable_the_warning_before_emptying_the_trash
+        - osxdefaults::finder_disable_the_warning_when_changing_a_file_extension
+        - osxdefaults::finder_search_the_current_folder_by_default
+        - osxdefaults::finder_unhide_home
+        - osxdefaults::finder_show_all_files
+        - osxdefaults::finder_show_file_extensions
+        - osxdefaults::finder_set_preferred_view_style
+        - osxdefaults::finder_search_the_current_folder_by_default
+        - osxdefaults::finder_small_sidebar_icon_size
+	- osxdefaults::finder_show_status_bar
+	- osxdefaults::finder_show_path_bar
+	- osxdefaults::avoid_creating_ds_store_files_on_network_volumes
 attributes:
     homebrewalt:
         cask_apps:

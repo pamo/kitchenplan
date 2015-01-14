@@ -52,3 +52,28 @@ attributes:
     nodejs:
         apps:
             - bower
+    sublime_text_packages:
+        - 
+            name: SideBarEnhancements
+            source: https://github.com/titoBouzout/SideBarEnhancements
+            branch: st3
+        - 
+            name: GitGutter
+            source: https://github.com/jisaacks/GitGutter.git
+            branch: master
+        - 
+            name: BracketHighlighter
+            source: https://github.com/facelessuser/BracketHighlighter.git
+            branch: master
+        - 
+            name: Alignment
+            source: https://github.com/wbond/sublime_alignment.git
+            branch: master
+        - 
+            name: JsFormat
+            source: https://github.com/jdc0589/JsFormat.git
+            branch: master
+        - 
+            name: Markdown Preview
+            source: https://github.com/revolunet/sublimetext-markdown-preview.git
+            branch: master

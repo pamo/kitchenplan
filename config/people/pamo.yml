@@ -84,7 +84,6 @@ attributes:
             - fantastical
             - bartender
             - recordit
-            - tinkertool
             - scapple
             - jawbone-updater
             - spectacle
@@ -139,22 +138,22 @@ attributes:
     nodejs:
         apps:
             - bower
-	    - grunt
-	    - grunt-cli
+            - grunt
+            - grunt-cli
     bash_it:
-	 theme: envy
-	 enabled_plugins:
-	     completion:
-    		 - defaults
-    		 - bash-it
-    		 - git
-    		 - brew
-    		 - gem
-    		 - rake
-    		 - ssh
-	     plugins:
-    		 - git
-    		 - ssh
-    		 - ruby
-    		 - rbenv
-    		 - vagrant
+        theme: envy
+        enabled_plugins:
+            completion:
+                - defaults
+                - bash-it
+                - git
+                - brew
+                - gem
+                - rake
+                - ssh
+            plugins:
+                - git
+                - ssh
+                - ruby
+                - rbenv
+                - vagrant

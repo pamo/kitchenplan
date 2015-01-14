@@ -73,6 +73,7 @@ attributes:
             - screenhero
             - kaleidoscope
             - vlc
+            - lastfm
             - vagrant
             - virtualbox
             - plug
@@ -82,7 +83,11 @@ attributes:
             - slack
             - fantastical
             - bartender
-            - sizeup
+            - recordit
+            - tinkertool
+            - scapple
+            - jawbone-updater
+            - spectacle
     dotfiles:
         vimusers:
             - root
